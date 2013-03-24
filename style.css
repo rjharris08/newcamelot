@@ -1,22 +1,20 @@
 ﻿body {
-background:#b6b7bc;
+	background: #b6b7bc;
 }
 #container {
 	width: 900px;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:#b6b7bc;
-	text-align:left;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #b6b7bc;
+	text-align: left;
 }
 #header {
 	width: 900px;
 	height: 75px;
-	position: relative;
-/*	background-image: url(images/muslim1.jpg);*/
-    background: #4b6c9e;
+	position: relative; /*	background-image: url(images/muslim1.jpg);*/;
+	background: #4b6c9e;
 	border-bottom: 2px solid #000000;
-	/*background-color:darkolivegreen;*/
-	text-shadow:2px 2px #FF0000;
+/*background-color:darkolivegreen;*/text-shadow: 2px 2px #FF0000;
 /*	background-color: #F8AA3C; */
 }
 #header a {
@@ -58,24 +56,24 @@ background:#b6b7bc;
 	width: 900px;
 	height: 30px;
 	position: relative;
-    background-color:#3a4f63;
-/*	background-color: #F2D6AF; */
+	background-color: #3a4f63; /*	background-color: #F2D6AF; */;
 	border-bottom: 2px solid #000000;
 }
 .navlinks {
-  position: relative;
+	position: relative;
 }
 .navlinks ul {
-        width: 600px;
+	width: 600px;
 	margin: 0 auto;
 }
 .navlinks li {
 	margin: 6px auto;
-        padding: 0;
+	padding: 0;
 	list-style-type: none;
 	display: inline;
-        width: 150px;
-        float: left;
+	width: 150px;
+	float: left;
+	text-align:center;
 }
 .navlinks li a {
 	color: #000000;
@@ -100,8 +98,7 @@ background:#b6b7bc;
 	width: 140px;
 	height: 400px;
 	background-color: black;
-	color: aqua;
-/*	background-color: #F8AA3C; */
+	color: aqua; /*	background-color: #F8AA3C; */;
 	border-right: 1px dashed #694717;
 }
 #rightnav {
@@ -109,22 +106,21 @@ background:#b6b7bc;
 	width: 140px;
 	height: 400px;
 	background-color: black;
-	color: aqua;
-/*	background-color: #F8AA3C; */
+	color: aqua; /*	background-color: #F8AA3C; */;
 	border-left: 1px dashed #694717;
 }
 #body {
 	margin: auto;
 	width: 600px;
 	height: 400px;
-	background-color:#b6b7bc;
-	position:relative;
+	background-color: #b6b7bc;
+	position: relative;
 }
 #footer {
 	height: 30px;
 	border-top: 2px solid white;
 	clear: both;
-    background: #4b6c9e;
+	background: #4b6c9e;
 /*	background-color:darkolivegreen; */
 /*	background-color: #D1C0A7; */
 }
