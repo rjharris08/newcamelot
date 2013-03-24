@@ -1,0 +1,142 @@
+﻿body {
+background:#b6b7bc;
+}
+#container {
+	width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#b6b7bc;
+	text-align:left;
+}
+#header {
+	width: 900px; 
+	height: 75px;
+	position: relative;
+/*	background-image: url(images/muslim1.jpg);*/
+    background: #4b6c9e;
+	border-bottom: 2px solid #000000;
+	/*background-color:darkolivegreen;*/
+	text-shadow:2px 2px #FF0000;	
+/*	background-color: #F8AA3C; */
+}
+#header a {
+	color: #0000ff;
+	text-decoration: underline;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 14px;
+}
+#header a:visited {
+	color: #ff00ff;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#header a:hover {
+	color: #ff0000;
+	text-decoration: none;
+	font-weight: bold;
+}
+#header p {
+	color: #000000;
+	font-family: Arial;
+	font-weight: bold;
+}
+.HorizLinks {
+	position: relative;
+	top: 3px;
+	left: 180px;
+}
+.HorizLinks ul {
+	margin: 0px;
+}
+.HorizLinks li {
+	margin: 0px 8px 0px 0px;
+	list-style-type: none;
+	display: inline;
+}
+#horizontalnav {
+	width: 900px;
+	height: 30px;
+	position: relative;
+    background-color:#3a4f63;
+/*	background-color: #F2D6AF; */
+	border-bottom: 2px solid #000000;
+}
+.navlinks {
+	position: absolute;
+	top: 4px;
+	left: 225px;
+}
+.navlinks ul {
+	margin: auto;
+}
+.navlinks li {
+	margin: 0px 18px 0px 0px;
+	list-style-type: none;
+	display: inline;
+}
+.navlinks li a {
+	color: #000000;
+	padding: 0px 10px 5px;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Verdana;
+	text-align: center;
+	width: 80px;
+}
+.navlinks li a:hover {
+	color: #ff00ff;
+	background-color: #00ff00; /* could be a bitmap; use background-image if you want a bitmap */;
+	text-decoration: underline;
+}
+.smalltext {
+	font-size: 9px;
+	font-family: Arial;
+}
+#leftnav {
+	float: left;
+	width: 140px;
+	height: 400px;
+	background-color: black;
+	color: aqua;
+/*	background-color: #F8AA3C; */
+	border-right: 1px dashed #694717;
+}
+#rightnav {
+	float: right;
+	width: 140px;
+	height: 400px;
+	background-color: black;
+	color: aqua;
+/*	background-color: #F8AA3C; */
+	border-left: 1px dashed #694717;
+}
+#body {
+	margin: auto;
+	width: 600px;
+	height: 400px;
+	background-color:#b6b7bc;
+	position:relative;
+}
+#footer {
+	height: 30px;
+	border-top: 2px solid white;
+	clear: both;
+    background: #4b6c9e;
+/*	background-color:darkolivegreen; */
+/*	background-color: #D1C0A7; */
+}
+.box {
+	margin-top: 10px;
+	padding: 5px;
+/* t r b l */background-color: #dddddd;
+	border: 2px solid #d22929;
+	width: 350px;
+	color: #000000;
+}
+h2 {
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+/* when you give only one padding value, it will apply to all sides */font-family: Verdana;
+}
