@@ -1,17 +1,16 @@
 /* tags */
+/* these were designed to correspond to the different sections of the document */
+/* there should be a container/body, a header, a left nav, a right nav, and a footer */
+
 body {
   background: #b6b7bc;
-}
-/* ids */
-/* container is the outer */
-#container {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
   background-color: #b6b7bc;
   text-align: center;
 }
-#header {
+.header {
   width: 900px;
   height: 75px;
   position: relative; /*	background-image: url(images/muslim1.jpg);*/;
@@ -20,41 +19,46 @@ body {
   /*background-color:darkolivegreen;*/text-shadow: 2px 2px #FF0000;
   /*	background-color: #F8AA3C; */
 }
-#header a {
+.header a {
   color: #0000ff;
   text-decoration: underline;
   font-weight: bold;
   font-family: Verdana;
   font-size: 14px;
 }
-#header a:visited {
+.header a:visited {
   color: #ff00ff;
   text-decoration: underline;
   font-weight: bold;
 }
-#header a:hover {
+.header a:hover {
   color: #ff0000;
   text-decoration: none;
   font-weight: bold;
 }
-#header p {
+.header p {
   color: #000000;
   font-family: Arial;
   font-weight: bold;
 }
-.HorizLinks {
+.footer .HorizLinks {
   position: relative;
   top: 3px;
-  left: 180px;
 }
-.HorizLinks ul {
-  margin: 0px;
+.footer .HorizLinks ul {
+  margin: 0px auto;
+  width: 600px;
 }
 /* classes */
-.HorizLinks li {
-  margin: 0px 8px 0px 0px;
+.footer .HorizLinks li {
+  margin: 0;
   list-style-type: none;
-  display: inline;
+  width: 150px;
+  float: left;
+}
+.HorizLinks li:hover {
+  background-color: black;
+  color: #4b6c9e;
 }
 #horizontalnav {
   width: 900px;
@@ -113,14 +117,14 @@ body {
   color: aqua; /*	background-color: #F8AA3C; */;
   border-left: 1px dashed #694717;
 }
-#body {
+.body {
   margin: auto;
   width: 600px;
   height: 400px;
   background-color: #b6b7bc;
   position: relative;
 }
-#footer {
+.footer {
   height: 30px;
   border-top: 2px solid white;
   clear: both;
@@ -140,5 +144,6 @@ h2 {
   font-size: 20px;
   color: white;
   padding: 10px;
-  /* when you give only one padding value, it will apply to all sides */font-family: Verdana;
+  /* when you give only one padding value, it will apply to all sides */
+  font-family: Verdana, Helvetica, sans-serif;
 }
