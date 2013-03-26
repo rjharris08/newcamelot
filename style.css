@@ -8,6 +8,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: #b6b7bc;
+  background-color: red;
   text-align: center;
 }
 .header {
@@ -16,6 +17,7 @@ body {
   position: relative; /*	background-image: url(images/muslim1.jpg);*/;
   background: #4b6c9e;
   border-bottom: 2px solid #000000;
+  border-radius: 10px 10px 0 0;
   /*background-color:darkolivegreen;*/text-shadow: 2px 2px #FF0000;
   /*	background-color: #F8AA3C; */
 }
@@ -61,8 +63,9 @@ body {
   color: #4b6c9e;
 }
 #horizontalnav {
+  margin: 0;
   width: 900px;
-  height: 30px;
+  height: 31px;
   position: relative;
   background-color: #3a4f63; /*	background-color: #F2D6AF; */;
   border-bottom: 2px solid #000000;
@@ -78,12 +81,13 @@ body {
   margin: 6px auto;
   padding: 0;
   list-style-type: none;
-  display: inline;
+  display: block;
   width: 150px;
   float: left;
   text-align:center;
 }
 .navlinks li a {
+  border-radius: 5px;
   color: #000000;
   padding: 6px 10px;
   text-decoration: none;
@@ -91,6 +95,7 @@ body {
   font-family: Verdana;
   text-align: center;
   width: 140px;
+  height: inherit;
 }
 .navlinks li a:hover {
   color: #ff00ff;
@@ -118,17 +123,19 @@ body {
   border-left: 1px white solid;
 }
 .body {
-  margin: auto;
-  width: 600px;
-  height: 400px;
+  margin: 0;
+  width: 608px;
+  height: 390px;
   background-color: #b6b7bc;
-  position: relative;
+  padding: 5px;
+  float: left;
 }
 .footer {
   height: 30px;
   border-top: 2px solid white;
   clear: both;
   background: #4b6c9e;
+  border-radius: 0 0 10px 10px;
   /*	background-color:darkolivegreen; */
   /*	background-color: #D1C0A7; */
 }
