@@ -107,7 +107,7 @@ body {
   height: 400px;
   background-color: black;
   color: aqua; /*	background-color: #F8AA3C; */;
-  border-right: 1px dashed #694717;
+  border-right: 1px white solid;
 }
 #rightnav {
   float: right;
@@ -115,7 +115,7 @@ body {
   height: 400px;
   background-color: black;
   color: aqua; /*	background-color: #F8AA3C; */;
-  border-left: 1px dashed #694717;
+  border-left: 1px white solid;
 }
 .body {
   margin: auto;
